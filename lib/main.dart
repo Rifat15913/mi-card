@@ -23,6 +23,17 @@ class MyApp extends StatelessWidget {
                   fontSize: 40.0,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
+                  fontFamily: 'Pacifico',
+                ),
+              ),
+              Text(
+                'Flutter Developer'.toUpperCase(),
+                style: TextStyle(
+                  fontSize: 20.0,
+                  color: Colors.teal.shade100,
+                  fontFamily: 'Source Sans Pro',
+                  fontWeight: FontWeight.bold,
+                  letterSpacing: 2.5,
                 ),
               )
             ],
